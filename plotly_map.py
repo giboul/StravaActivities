@@ -6,11 +6,12 @@ from matplotlib import pyplot as plt
 from plotly import graph_objects as go
 
 activities = pd.read_csv("activities.csv")
+activities.distance /= 1000
 fig = go.Figure()
 
 hovertemplate = (
 """<b>{name}</b>
-{type}: {distance}
+{type}: {distance:.2f} km
 """).replace("\n", "<br>")
 
 for i, activity in activities.iterrows():
