@@ -17,3 +17,5 @@ Strava API's makes things complicated for safety... `2_gettokens.py` will exchan
 ## Refreshing the token 
 
 The tokens might get out-of-date pretty quickly... `refresh_tokens.py` takes care of them. Run it before getting your activities once again.
+
+<img src="plotly_map.png">
