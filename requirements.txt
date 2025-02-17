@@ -1,2 +1,9 @@
 stravalib
+numpy
+matplotlib
 pyyaml
+polyline
+pandas
+cartopy
+scipy
+plotly
